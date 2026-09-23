@@ -1,0 +1,27 @@
+{
+  "model": "simpleconv",
+  "datasets_dir": "data/preprocessed",
+  "seeds": [
+    3407,
+    3408,
+    3409,
+    3410,
+    3411
+  ],
+  "output_dir": "models/EEGSimpleConv/original_full_01",
+  "training": {
+    "epochs": 2,
+    "batch_size": 64,
+    "lr": 0.0001,
+    "weight_decay": 0.05,
+    "optimizer": "AdamW",
+    "clip_value": 1,
+    "multi_lr": false,
+    "device": "auto"
+  },
+  "model_parameters": {
+    "simpleconv_fm": 128,
+    "simpleconv_n_convs": 4,
+    "simpleconv_kernel_size": 8
+  }
+}
