@@ -52,7 +52,7 @@ Place the CBraMod pretrained checkpoint at:
 models/model_weights/CBraMod/pretrained_weights.pth
 ```
 
-The checkpoint is available from [Hugging Face](https://huggingface.co/weighting666/CBraMod).
+The checkpoint is available from [Hugging Face]([https://huggingface.co/weighting666/CBraMod](https://huggingface.co/weighting666/CBraMod/tree/main)).
 
 EEGSimpleConv is trained from scratch and does not require pretrained weights.
 
